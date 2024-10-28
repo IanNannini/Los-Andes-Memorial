@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Notificacion
+comment0.text=\r\n\ Clase\ que\ representa\ una\ notificaci\u00F3n\ en\ el\ sistema.\r\n
+comment1.params=id\ mensaje\ fecha\ mostrada\ destinatario
+comment1.target=Notificacion(int,\ java.lang.String,\ java.time.LocalDateTime,\ boolean,\ Usuario)
+comment1.text=\r\n\ Constructor\ para\ inicializar\ un\ objeto\ Notificacion.\r\n\ @param\ id\ Identificador\ \u00FAnico\ de\ la\ notificaci\u00F3n.\r\n\ @param\ mensaje\ Mensaje\ de\ la\ notificaci\u00F3n.\r\n\ @param\ fecha\ Fecha\ en\ la\ que\ se\ gener\u00F3\ la\ notificaci\u00F3n.\r\n\ @param\ mostrada\ Indica\ si\ la\ notificaci\u00F3n\ ya\ fue\ mostrada\ al\ usuario.\r\n\ @param\ destinatario\ Usuario\ destinatario\ de\ la\ notificaci\u00F3n.\r\n
+comment10.params=
+comment10.target=Usuario\ getDestinatario()
+comment11.params=destinatario
+comment11.target=void\ setDestinatario(Usuario)
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=id
+comment3.target=void\ setId(int)
+comment4.params=
+comment4.target=java.lang.String\ getMensaje()
+comment5.params=mensaje
+comment5.target=void\ setMensaje(java.lang.String)
+comment6.params=
+comment6.target=java.time.LocalDateTime\ getFecha()
+comment7.params=fecha
+comment7.target=void\ setFecha(java.time.LocalDateTime)
+comment8.params=
+comment8.target=boolean\ isMostrada()
+comment9.params=mostrada
+comment9.target=void\ setMostrada(boolean)
+numComments=12

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=NotificacionView
+comment1.params=notificacionController
+comment1.target=NotificacionView(LosAndesMemorial.Controlador.NotificacionController)
+comment2.params=usuario
+comment2.target=void\ mostrarNotificaciones(LosAndesMemorial.Modelo.Usuario)
+comment2.text=\r\n\ Muestra\ las\ notificaciones\ pendientes\ para\ un\ usuario.\r\n\ @param\ usuario\ El\ usuario\ que\ recibe\ las\ notificaciones.\r\n
+numComments=3

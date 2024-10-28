@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ServicioFunerarioView
+comment1.params=servicioController
+comment1.target=ServicioFunerarioView(LosAndesMemorial.Controlador.ServicioFunerarioController)
+comment2.params=
+comment2.target=void\ solicitarServicioFunerario()
+comment2.text=\r\n\ Muestra\ las\ opciones\ para\ solicitar\ un\ servicio\ funerario.\r\n
+comment3.params=servicio
+comment3.target=void\ enviarDocumentacion(LosAndesMemorial.Modelo.ServicioFunerario)
+comment3.text=\r\n\ Env\u00EDa\ la\ documentaci\u00F3n\ para\ que\ la\ revise\ el\ Administrador\ de\ Ventas.\r\n\ @param\ servicio\ Servicio\ funerario\ cuya\ documentaci\u00F3n\ se\ enviar\u00E1.\r\n
+comment4.params=servicio
+comment4.target=void\ asignarOperario(LosAndesMemorial.Modelo.ServicioFunerario)
+comment4.text=\r\n\ Muestra\ las\ opciones\ para\ asignar\ operarios\ a\ un\ servicio\ funerario.\r\n\ Incluye\ el\ manejo\ de\ la\ excepci\u00F3n\ en\ caso\ de\ que\ no\ haya\ operarios\ disponibles.\r\n
+comment5.params=servicio\ operario
+comment5.target=void\ asignarOperario(LosAndesMemorial.Modelo.ServicioFunerario,\ LosAndesMemorial.Modelo.Usuario)
+comment5.text=\r\n\ Muestra\ las\ opciones\ para\ asignar\ un\ operario\ espec\u00EDfico\ a\ un\ servicio\ funerario.\r\n
+comment6.params=servicio\ nuevoEstado
+comment6.target=void\ actualizarEstadoServicio(LosAndesMemorial.Modelo.ServicioFunerario,\ LosAndesMemorial.Modelo.Estado)
+comment6.text=\r\n\ Muestra\ las\ opciones\ para\ actualizar\ el\ estado\ de\ un\ servicio\ funerario.\r\n\ Captura\ `EstadoInvalidoException`\ si\ el\ estado\ proporcionado\ es\ inv\u00E1lido.\r\n
+numComments=7

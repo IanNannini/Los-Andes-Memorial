@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=LoginView
+comment1.params=loginController
+comment1.target=LoginView(LosAndesMemorial.Controlador.LoginController)
+comment2.params=
+comment2.target=LosAndesMemorial.Modelo.Usuario\ mostrarLogin()
+comment2.text=\r\n\ Muestra\ la\ pantalla\ de\ login\ y\ captura\ los\ datos\ de\ acceso.\r\n\ @return\ El\ usuario\ que\ inici\u00F3\ sesi\u00F3n\ si\ las\ credenciales\ son\ correctas,\ o\ null\ si\ no\ lo\ son.\r\n
+numComments=3

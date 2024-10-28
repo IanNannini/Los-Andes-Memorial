@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BaseDatos
+comment0.text=\r\n\ Clase\ que\ simula\ una\ base\ de\ datos\ para\ el\ prototipo\ del\ sistema.\r\n
+comment1.params=
+comment1.target=BaseDatos()
+comment1.text=\r\n\ Constructor\ que\ inicializa\ las\ listas\ de\ usuarios,\ servicios\ y\ notificaciones.\r\n
+comment2.params=
+comment2.target=java.util.List\ getUsuarios()
+comment2.text=\r\n\ Obtiene\ la\ lista\ de\ usuarios.\r\n\ @return\ Lista\ de\ usuarios.\r\n
+comment3.params=usuario
+comment3.target=void\ agregarUsuario(Usuario)
+comment3.text=\r\n\ Agrega\ un\ usuario\ a\ la\ lista\ de\ usuarios.\r\n\ @param\ usuario\ Objeto\ Usuario\ que\ se\ agregar\u00E1.\r\n
+comment4.params=
+comment4.target=java.util.List\ getServicios()
+comment4.text=\r\n\ Obtiene\ la\ lista\ de\ servicios\ funerarios.\r\n\ @return\ Lista\ de\ servicios\ funerarios.\r\n
+comment5.params=servicio
+comment5.target=void\ agregarServicio(ServicioFunerario)
+comment5.text=\r\n\ Agrega\ un\ servicio\ funerario\ a\ la\ lista\ de\ servicios.\r\n\ @param\ servicio\ Objeto\ ServicioFunerario\ que\ se\ agregar\u00E1.\r\n
+comment6.params=
+comment6.target=java.util.List\ getNotificaciones()
+comment6.text=\r\n\ Obtiene\ la\ lista\ de\ notificaciones.\r\n\ @return\ Lista\ de\ notificaciones.\r\n
+comment7.params=notificacion
+comment7.target=void\ agregarNotificacion(Notificacion)
+comment7.text=\r\n\ Agrega\ una\ notificaci\u00F3n\ a\ la\ lista\ de\ notificaciones.\r\n\ @param\ notificacion\ Objeto\ Notificacion\ que\ se\ agregar\u00E1.\r\n
+numComments=8

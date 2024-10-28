@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LoginController
+comment0.text=\r\n\ Controlador\ encargado\ de\ gestionar\ el\ proceso\ de\ login.\r\n
+comment1.params=usuarios
+comment1.target=LoginController(java.util.List)
+comment1.text=\r\n\ Constructor\ del\ LoginController\r\n\ @param\ usuarios\ Lista\ de\ usuarios\ registrados\ en\ el\ sistema.\r\n
+comment2.params=email\ contrase\u00F1a
+comment2.target=LosAndesMemorial.Modelo.Usuario\ login(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ para\ validar\ el\ login\ del\ usuario.\r\n\ @param\ email\ Correo\ electr\u00F3nico\ del\ usuario.\r\n\ @param\ contrase\u00F1a\ Contrase\u00F1a\ del\ usuario.\r\n\ @return\ El\ objeto\ Usuario\ si\ las\ credenciales\ son\ correctas,\ null\ si\ no\ lo\ son.\r\n
+numComments=3

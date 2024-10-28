@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Estado
+comment1.params=id\ estado
+comment1.target=Estado(int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ para\ inicializar\ un\ objeto\ Estado.\r\n\ @param\ id\ Identificador\ \u00FAnico\ del\ estado.\r\n\ @param\ estado\ Descripci\u00F3n\ del\ estado\ (documentaci\u00F3n\ cargada,\ finalizado,\ etc.).\r\n
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=id
+comment3.target=void\ setId(int)
+comment4.params=
+comment4.target=java.lang.String\ getEstado()
+comment5.params=estado
+comment5.target=void\ setEstado(java.lang.String)
+numComments=6

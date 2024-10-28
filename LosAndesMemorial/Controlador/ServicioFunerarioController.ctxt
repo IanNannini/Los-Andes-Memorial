@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ServicioFunerarioController
+comment0.text=\r\n\ Controlador\ encargado\ de\ gestionar\ los\ servicios\ funerarios.\r\n
+comment1.params=serviciosFunerarios\ operarios\ notificacionController
+comment1.target=ServicioFunerarioController(java.util.List,\ java.util.List,\ NotificacionController)
+comment1.text=\r\n\ Constructor\ de\ ServicioFunerarioController.\r\n\ Verifica\ que\ el\ controlador\ de\ notificaciones\ no\ sea\ nulo.\r\n\ @param\ serviciosFunerarios\ Lista\ de\ servicios\ funerarios\ registrados.\r\n\ @param\ operarios\ Lista\ de\ operarios\ disponibles.\r\n\ @param\ notificacionController\ Controlador\ de\ notificaciones.\r\n\ @throws\ IllegalArgumentException\ Si\ notificacionController\ es\ nulo.\r\n
+comment2.params=servicio
+comment2.target=void\ solicitarServicio(LosAndesMemorial.Modelo.ServicioFunerario)
+comment2.text=\r\n\ M\u00E9todo\ para\ solicitar\ un\ nuevo\ servicio\ funerario.\r\n\ Genera\ una\ notificaci\u00F3n\ autom\u00E1tica\ para\ los\ roles\ relevantes.\r\n\ @param\ servicio\ Nuevo\ servicio\ funerario\ a\ registrar.\r\n
+comment3.params=servicio\ operario
+comment3.target=void\ asignarOperario(LosAndesMemorial.Modelo.ServicioFunerario,\ LosAndesMemorial.Modelo.Usuario)
+comment3.text=\r\n\ M\u00E9todo\ para\ asignar\ un\ operario\ espec\u00EDfico\ a\ un\ servicio\ funerario.\r\n\ Genera\ una\ notificaci\u00F3n\ para\ el\ operario\ asignado.\r\n\ @param\ servicio\ Servicio\ funerario\ al\ que\ se\ le\ va\ a\ asignar\ un\ operario.\r\n\ @param\ operario\ Usuario\ operario\ que\ se\ asignar\u00E1\ al\ servicio.\r\n
+comment4.params=servicio
+comment4.target=void\ asignarOperario(LosAndesMemorial.Modelo.ServicioFunerario)
+comment4.text=\r\n\ M\u00E9todo\ para\ asignar\ un\ operario\ al\ servicio\ funerario\ de\ forma\ autom\u00E1tica.\r\n\ Selecciona\ el\ primer\ operario\ disponible\ en\ la\ lista.\r\n\ @param\ servicio\ Servicio\ funerario\ al\ que\ se\ le\ va\ a\ asignar\ un\ operario.\r\n\ @throws\ OperarioNoDisponibleException\ Si\ no\ hay\ operarios\ disponibles.\r\n
+comment5.params=servicio\ nuevoEstado
+comment5.target=void\ actualizarEstado(LosAndesMemorial.Modelo.ServicioFunerario,\ LosAndesMemorial.Modelo.Estado)
+comment5.text=\r\n\ M\u00E9todo\ para\ actualizar\ el\ estado\ del\ servicio\ funerario.\r\n\ Genera\ una\ notificaci\u00F3n\ autom\u00E1tica\ para\ los\ roles\ relevantes.\r\n\ @param\ servicio\ Servicio\ funerario\ al\ que\ se\ le\ va\ a\ actualizar\ el\ estado.\r\n\ @param\ nuevoEstado\ Nuevo\ estado\ del\ servicio\ funerario.\r\n\ @throws\ EstadoInvalidoException\ Si\ el\ nuevo\ estado\ es\ inv\u00E1lido.\r\n
+comment6.params=
+comment6.target=java.util.List\ obtenerServiciosPendientes()
+comment6.text=\r\n\ Obtiene\ la\ lista\ de\ servicios\ funerarios\ pendientes\ de\ revisi\u00F3n\ de\ documentaci\u00F3n.\r\n\ @return\ Lista\ de\ servicios\ funerarios\ con\ estado\ de\ "documentaci\u00F3n\ cargada".\r\n
+numComments=7
